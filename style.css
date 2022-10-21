@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  box-sizing: border-box;
+}
+
+.cv-block {
+  max-width: 100%;
+  height: 47rem;
+  background-color: #c8f5e9;
+  background-image: url("../img/IMG_20220406_193105fd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.cv-block-header-text {
+  font-size: 2.5em;
+  padding: 2rem;
+  color: #2d3038;
+}
+
+.navbar__item {
+  width: 15.4rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+
+.navbar__item:hover {
+  color: #fcfcf8;
+  text-shadow: 0 0 0.5em #fcfcf8;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow: hidden;
+  float: left;
+  background-image: linear-gradient(109.6deg, rgb(209, 0, 116) 11.2%, rgb(110, 44, 107) 91.1%);
+}
+
+.cv-block-info-aboutme,
+.cv-block-info-skills,
+.cv-block-info-experience,
+.cv-block-info-contact,
+.cv-block-info-education {
+  width: 100%;
+  padding-top: 3rem;
+  padding-left: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+a {
+  color: #fbfbfc;
+  font-size: 1.2em;
+  font-family: "Marcellus", serif;
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+.cv-block-aside-navbar-item-icon {
+  width: 5rem;
+  padding: 1rem;
+}
+
+.cv-block-info-aboutme-name {
+  font-size: 3em;
+  padding-bottom: 1rem;
+}
+
+.cv-block-info-aboutme-prof {
+  font-size: 2em;
+  font-weight: lighter;
+  padding-bottom: 1rem;
+}
+
+.cv-block-info-aboutme-description {
+  font-size: 1.5em;
+}
+
+.cv-block-info-aboutme-moto {
+  color: #b90162;
+  padding-top: 3rem;
+  font-size: 2em;
+  font-style: oblique;
+}
+
+.cv-block-info-education-container,
+.cv-block-info-experience-container,
+.cv-block-info-skills-container,
+.cv-block-info-contact-container {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+}
+
+.cv-block-info-education-title,
+.cv-block-info-experience-title,
+.cv-block-info-skills-title,
+.cv-block-info-contact-title {
+  font-size: 3em;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.cv-block-info-education-ex,
+.cv-block-info-experience-ex,
+.cv-block-info-skills-programming,
+.cv-block-info-skills-soft,
+.cv-block-info-skills-tools,
+.cv-block-info-skills-language {
+  padding-bottom: 1rem;
+  font-style: oblique;
+  font-size: 1.5em;
+}
+
+.cv-block-info-education-ex-details,
+.cv-block-info-experience-ex-details,
+.cv-block-info-skills-ex-details,
+.cv-block-info-skills-soft-list-item,
+.cv-block-info-skills-soft-language-item,
+.cv-block-info-contact-container-details {
+  font-size: 1em;
+}
+
+.cv-block-info-education-logo,
+.cv-block-info-experience-logo,
+.cv-block-info-skills-logo {
+  width: 3rem;
+}
+
+.cv-block-info-contact-logo {
+  width: 2rem;
+}
+
+.cv-block-info-skills-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 2rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .cv-block-info-aboutme,
+.cv-block-info-skills,
+.cv-block-info-experience,
+.cv-block-info-contact,
+.cv-block-info-education {
+    padding-left: 6rem;
+  }
+  .navbar__item {
+    width: 9.9rem;
+  }
+  .cv-block-header-text {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .cv-block-info-aboutme,
+.cv-block-info-skills,
+.cv-block-info-experience,
+.cv-block-info-contact,
+.cv-block-info-education {
+    padding-left: 2rem;
+  }
+  .cv-block-info-education-title,
+.cv-block-info-experience-title,
+.cv-block-info-skills-title,
+.cv-block-info-contact-title {
+    font-size: 1.5em;
+  }
+  .cv-block-info-skills-wrapper {
+    display: block;
+  }
+  .cv-block {
+    max-width: 100%;
+    height: 30rem;
+  }
+  .cv-block-header-text {
+    font-size: 1em;
+  }
+  .cv-block-info-aboutme-description {
+    font-size: 1em;
+  }
+  .cv-block-info-education-ex,
+.cv-block-info-experience-ex,
+.cv-block-info-skills-programming,
+.cv-block-info-skills-soft,
+.cv-block-info-skills-tools,
+.cv-block-info-skills-language {
+    font-size: 1em;
+  }
+  .cv-block-info-aboutme-moto {
+    font-size: 1em;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
